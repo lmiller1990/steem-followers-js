@@ -15,5 +15,5 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "homepage" : "http://lmiller1990.github.io/myapp",
+  "homepage" : "http://lmiller1990.github.io/followers",
 }
