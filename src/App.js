@@ -22,7 +22,7 @@ class App extends Component {
     console.log('Submitted', this.state.username);
     event.preventDefault();
 
-    steem.api.getFollowers('xenetics', 0, 'blog', 100, (err, result) => {
+    steem.api.getFollowers(this.state.username, 0, 'blog', 100, (err, result) => {
       console.log(result)
       this.setState({ followers: result })
     })
