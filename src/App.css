@@ -1,0 +1,23 @@
+.outer {
+  margin: 20px;
+}
+
+.follower {
+  border: 2px solid silver;
+  padding: 5px;
+  margin: 3px;
+}
+
+.form {
+  margin: 10px;
+  font-size: 1.2em;
+}
+
+input[type="text"] {
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 1.4em;
+  padding: 5px;
+  margin: 5px;
+}
+
